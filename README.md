@@ -26,7 +26,7 @@ The front-end uses HTML, CSS, and Bootstrap, while MySQL is used for database ma
 
 Java
 
-JSP & Servlets
+JSP
 
 HTML, CSS, Bootstrap
 
