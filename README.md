@@ -77,24 +77,25 @@ Vote for the preferred party and check results.
 # Project Structure
 OnlineVotingSystem/
 │
-├── WebContent/               # Frontend files (HTML, JSP, CSS, Images)
-│   ├── index.jsp             # Login page
-│   ├── vote.jsp              # Voting page
-│   ├── results.jsp           # Display voting results
-│   ├── register.jsp          # Voter registration page (optional)
-│   ├── css/                  # CSS files for styling
-│   │   └── style.css
-│   └── images/               # Party symbols and other images
+├── WebContent/                 # Frontend files (HTML, JSP, CSS, Images)
+│   ├── index.jsp               # Login page
+│   ├── vote.jsp                # Voting page
+│   ├── results.jsp             # Results page
+│   ├── register.jsp            # Voter registration page
+│   ├── css/
+│   │   └── style.css           # Styling
+│   └── images/                 # Party symbols and other images
 │       └── party1.png
 │
-├── WEB-INF/                  # Configuration and library files
-│   ├── web.xml               # Deployment descriptor
-│   └── lib/                  # JDBC driver (e.g., mysql-connector-java.jar)
+├── WEB-INF/                    # Configuration and libraries
+│   ├── web.xml                 # Deployment descriptor
+│   └── lib/                    # JDBC driver (e.g., mysql-connector-java.jar)
 │
-├── SQL/                      # Database scripts
-│   └── VotingDB.sql          # Script to create tables and insert sample data
+├── SQL/
+│   └── VotingDB.sql            # SQL script for database setup
 │
-└── README.md                 # Project documentation
+└── README.md                   # Project documentation
+
 
 # Contributors
 
